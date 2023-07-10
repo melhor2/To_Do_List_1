@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.1",
+    "node": "^20.3.1",
+    "nodemon": "^2.0.22"
+  },
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "Todo list for develop to activitys",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Todo",
+    "list"
+  ],
+  "author": "John Alexander Palacio",
+  "license": "ISC"
+}

@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(255, 127, 127);
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: rgba(210, 30, 30, 0);
+    padding: 3rem;
+    font-size: 3rem;
+}
+
+input {
+    min-width: 600px;
+    height: 2rem;
+    border-radius: 10px 0 10px 0;
+    border: solid 2px rgba(210, 30, 30, 0.007);
+    font-size: 1rem;
+    outline: none
+}
+
+::placeholder {
+    color: rgba(210, 30, 30, 0)
+}
+
+button {
+    width: 200px;
+    height: 2rem;
+    background: rgba(210, 30, 30, 0);
+    font-size: 1rem;
+    border: none;
+}
